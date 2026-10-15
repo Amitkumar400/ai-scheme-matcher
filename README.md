@@ -24,7 +24,7 @@ Without `MONGODB_URI`, the backend uses its built-in scheme dataset and stores f
 - `POST /api/feedback` accepts `{ schemeId, outcome, message? }` where outcome is `applied`, `approved`, `rejected`, `not-eligible`, or `other`.
 - `GET /api/health` returns API status.
 
-Development requests from Vite are proxied to Express at port 4000. Configure `CLIENT_ORIGIN` when hosting the UI on a different origin.
+Development requests from Vite are proxied to Express at port 4000. Configure `CLIENT_ORIGIN` when hosting the UI at a different origin.
 
 ## Matching and privacy
 
